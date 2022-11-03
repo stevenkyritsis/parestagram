@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Error saving post", Toast.LENGTH_SHORT).show()
             } else {
                 Log.i(TAG, "Successfully saved post")
+                Toast.makeText(this, "Successfully saved post", Toast.LENGTH_SHORT).show()
             }
         }
         pb.visibility = ProgressBar.INVISIBLE
